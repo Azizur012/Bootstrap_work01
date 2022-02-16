@@ -1,0 +1,24 @@
+@media screen and ( max-width:640px){
+.item h2{ font-size:60px;}
+ .item h3{ font-size:20px;}
+ .item h4{ font-size:20px;}
+ .about-top{ max-width:292px; margin:0 auto;}
+ .about-icon1{ max-width:292px; margin:30px auto;}
+ .about-icon2{ max-width:292px; margin:30px auto;}
+ .about-icon3{ max-width:292px; margin:30px auto;}
+ .about-icon4{ max-width:292px; margin:30px auto;}
+ .service-icon{ max-width:292px; margin:30px auto;}
+ .pricing{ max-width:292px; margin:30px auto;}
+ .count{ max-width:292px; margin:30px auto;}
+ .panel{ max-width:292px; margin:30px auto;}
+ .list-group{ max-width:292px; margin:30px auto;}
+  .logofooter{ max-width:292px; margin:30px auto;}
+.heading7{ max-width:292px; margin:30px auto;}
+.fb-page{ max-width:292px; margin:30px auto;}
+.copyright{ max-width:292px; margin:30px auto;}
+.element-item{ width:50%;}
+.isotope-overlay-teg h2{ position:absolute; left:20%; right:30%; transition: .5s; bottom:-100%;}
+
+}
+
+@media screen and ( max-width:640px){ .element-item{ width:100%;}}

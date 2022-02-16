@@ -1,0 +1,375 @@
+				*{
+				margin:0;
+				padding:0;
+				}
+				
+				
+
+
+                 .container { width: 100%;}
+				.navbar-brand>img {
+					display: block;
+					width: 271px;
+					height: 51px;
+					margin-top:0px;
+				}
+
+				.navbar-default {
+					background-color:transparent;
+					border-color: transparent;
+				}
+				.navbar-default .navbar-nav > li > a {
+					color: #FFFFFF;
+					text-transform: uppercase;
+					font-size: 16px;
+				}
+				.navbar-toggle{ margin-top:56px;}
+
+				.menu-bg{ background: #87d37c;} 
+
+				#slider{ background:url(img/stock-photo-medical-doctor-surgical-woman-excited-smile-with-team-group-of-people-in-hospital-nurse-wear-blue-173183105.jpg) no-repeat;}
+				.item{ padding:180px 0px; color:#FFFFFF;}
+				.item h3{ font-size:40px;}
+				.item h2{ font-size:100px; border:2px solid #FFFFFF; max-width:670px; margin:0 auto; padding:10px;}
+				.item h4{ font-size:36px;}
+				.item span{ color:#00FF00;}
+
+				.carousel-indicators li{ background:#FFFFFF; width:10px; height:10px; margin:2px;}
+				.carousel-indicators .active{ background:#00FF66; border:1px solid #00FF66; width:10px; height:10px; margin:2px;}
+				.slider-overlay{ width:100%; background:rgba(0,0,0, .3);}
+
+				.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+					color: #87d37c;
+					background-color: transparent;
+				}
+
+
+
+
+                .content-space-two {
+  padding: 0px;
+  margin-bottom: 0px;
+  color: inherit;
+  background: url(img/8305158-Medical-doctor-in-the-office-Stock-Photo-hospital.jpg)) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+
+
+				#about{ padding:100px 0px;}
+				.about-top h2{ text-transform:uppercase; font-weight:bold; font-size:36px; color:#0000FF;}
+				.about-top p{ max-width:700px; margin:0 auto; font-size:16px; color:##000000; margin-bottom:15px;}
+
+				.about-icon1 i{ font-size:70px; color:#FF0000;}
+				.about-icon1 h2{ font-size:18px; text-transform:uppercase; font-weight:bold; color:#00FF66;}
+				.about-icon1 p { font-size:14px; color:#000000;}
+
+				.about-icon2 i{ font-size:70px; color:#0000FF;}
+				.about-icon2 h2{ font-size:18px; text-transform:uppercase; font-weight:bold; color:#00FF66;}
+				.about-icon2 p { font-size:14px; color:#000000;}
+
+				.about-icon3 i{ font-size:70px; color:#00FF00;}
+				.about-icon3 h2{ font-size:18px; text-transform:uppercase; font-weight:bold; color:#00FF66;}
+				.about-icon3 p { font-size:14px; color:#000000;}
+
+				.about-icon4 i{ font-size:70px; color:#6600CC;}
+				.about-icon4 h2{ font-size:18px; text-transform:uppercase; font-weight:bold; color:#00FF66;}
+				.about-icon4 p { font-size:14px; color:#000000;}
+
+
+			#service{ padding:90px 0px; background:#e1e1e1;}
+			.service-icon img{ width:100%; height:243px;}
+			.service-icon{ position:relative; overflow:hidden;}
+			.service-overlay{ width:100%; height:100%; background:rgba(0,0,0, .3); position:absolute; top:-100%; transition: .5s;}
+			.service-icon:hover .service-overlay{ top:0;}
+
+			.service-overlay-icon{ position:absolute; left:43%; transition: .5s; bottom:-100%;}
+
+			.service-overlay-icon i{ width:40px; height:40px; color:#00FF66; font-size:36px; line-height:40px;}
+
+			.service-icon:hover .service-overlay-icon{ bottom:40%;}
+			.service-overlay-icon i:hover{ color:#FFFFFF;}
+
+			<!------------------filtering-------------------------->
+
+			#Filtering{ padding:100px 0px;}
+			#Filtering p{ max-width:700px; margin:0 auto; margin-bottom:30px; color:#3333FF;}
+			#Filtering h2{ text-transform:uppercase; font-weight:bold; color:#87d37c;}
+			/* ---- button ---- */
+
+
+
+
+			/* ---- button ---- */
+
+			.button {
+			  display: inline-block;
+			  padding: 0.5em 1.0em;
+			  background: #000000;
+			  border: none;
+			  color: #FFFFFF;
+			  text-transform:uppercase;
+			  font-family: sans-serif;
+			  font-size: 16px;
+			  cursor: pointer;
+			  margin-bottom: 20px;
+			  outline:none;
+			  
+			}
+
+			.button:hover {
+			  background-color: #87d37c;
+			  color: #fff;
+			}
+
+			.button:active,
+			.button.is-checked {
+			  background-color: #87d37c;
+			}
+
+			.button.is-checked {
+			  color: white;
+			}
+
+
+			/* ---- button-group ---- */
+
+
+			.button-group .button {
+			  border-radius: 0;
+			  margin-left: 0;
+			  margin-right: 1px;
+			}
+
+
+			/* ---- isotope ---- */
+
+
+
+			/* clear fix */
+			.grid:after {
+			  content: '';
+			  display: block;
+			  clear: both;
+			}
+
+			/* ---- .element-item ---- */
+
+			.element-item {
+			  position: relative;
+			  float: left;
+			  color: #262524;
+			  width:33%;
+			  border:10px solid #fff;
+			  overflow:hidden;
+			}
+
+			.element-item img{ width:100%; height:250px; overflow:hidden;}
+
+
+			.isotope-overlay{ position:absolute; width:100%; height:100%; background:rgba(0,0,0, .5); top:-100%; transition: .5s;}
+			.element-item:hover .isotope-overlay{ top:0;}
+
+
+			.isotope-overlay-teg{ position:absolute; left:30%; transition: .5s; bottom:-100%;}
+
+			.isotope-overlay-teg h2{ width:40px; height:40px; color:#00FF66; font-size:36px;  transition: .5s; line-height:40px;}
+
+			.element-item:hover .isotope-overlay-teg{ bottom:40%;}
+			.isotope-overlay-teg h2:hover{ color:#FFFFFF;}
+
+			#pricing-table{ padding:100px 0px;}
+
+			.pricing{ background:#39393a; color:#fff; border-radius:5px; padding:20px; transition: .5s;}
+			.pricing-top{ width:115px; height:115px; border:1px solid #fff; border-radius:100%; margin:0 auto; transition: .5s;}
+			.pricing-top p{ margin-top:20px;}
+			.pricing-top sup{ font-size:20px; top:-3px; left:-5px;}
+			.pricing-top em{ font-size:20px;}
+
+			.pricing-top span{ font-size:20px; text-transform:uppercase; padding-left:18px;}
+			.pricing ul{padding:0;}
+			.pricing ul li{ max-width:145px; margin:0 auto; border-bottom:1px solid #fff; list-style:none; padding:12px 0;}
+
+			.btn{ background:#FFFFFF; color:#39393a; font-weight:bold; border-radius:0px; margin:8px; padding:5px 20px; transition: .5s;}
+
+
+			.pricing:hover{ background:#87d37c; color:#fff;}
+
+			.pricing:hover .pricing-top{ background:#fff; color:#87d37c;}
+
+			.pricing:hover .btn{ background:#fff; color:#87d37c;}
+
+
+					#counterup{ background:url(img/Web-Design-Las-Vegas-33a-1600x900.png) no-repeat;}
+					.counter-overlay{ width:100%; height:100%; background:rgba(0,0,0, .5);}
+
+					.counter-content{ padding-top:100px; padding-bottom:213px;}
+					.count{ border:1px solid #fff; color:#FFFFFF; background:rgba(0,0,0, .7); padding:15px 0px;}
+					.count span{ font-size:32px;}
+					.count h2{ font-size:20px;}
+
+					#contact-us{ padding:100px 0;}
+					.contact-content i{ color:#00FF33; font-size:45px; line-height:60px;}
+					.contact-content h3{ text-transform:uppercase; font-weight:bold;}
+					.contact-content h4 { font-size:14px;}
+					..contact-content i.h3{ transition: .5s;}
+					.contact-content:hover i,
+					.contact-content:hover h3{color:#0000FF;}
+                     
+					 
+					 
+.outerpadding{
+    padding:10% 0%;}
+.boximg{
+	position:relative;
+	overflow:hidden;
+	}
+	
+.boximg img{
+        height:250px;
+		transition:all ease-in 500ms;
+		border:1px solid #fff;
+	}	
+.boximg img:hover{
+	transform:scale(1.3,1.3);
+	cursor:pointer;
+	
+	}	
+.boximg:hover{
+	border:1px solid #fff;
+	}	
+	
+.date{
+	 left: 0;
+    position: absolute;
+    top: 15px;
+	padding:5px;
+	background-color:teal;
+	opacity:0;
+	transition:all ease-in 300ms;
+	
+	}	
+	
+.likebut{
+	  background: none repeat scroll 0 0 teal;
+    height: 25px;
+    padding: 7px;
+    position: absolute;
+    right: 5px;
+    top: 130px;
+    width: 25px;
+	opacity:0.4;
+	transition:all ease-in 300ms;
+	}
+	
+	
+.boximg:hover .date{
+	opacity:1;
+	
+	}	
+.boximg:hover .likebut{
+	opacity:1;
+	
+}
+
+#opening-time{ padding:100px 0;}
+
+ 
+<!------------footer strat--------------->
+@import url
+.copyright{ color:#3a9cc8;}
+footer { background-color:#333; min-height:350px; font-family: 'Open Sans', sans-serif; }
+.footerleft { margin-top:50px; padding:0 36px; }
+.logofooter { margin-bottom:10px; font-size:25px; color:#fff; font-weight:700;}
+
+.footerleft p { color:#fff; font-size:12px !important; font-family: 'Open Sans', sans-serif; margin-bottom:15px;}
+.footerleft p i { width:20px; color:#999;}
+
+
+.paddingtop-bottom {  margin-top:50px;}
+.footer-ul { list-style-type:none;  padding-left:0px; margin-left:2px;}
+.footer-ul li { line-height:29px; font-size:12px;}
+.footer-ul li a { color:#a0a3a4; transition: color 0.2s linear 0s, background 0.2s linear 0s; }
+.footer-ul i { margin-right:10px;}
+.footer-ul li a:hover {transition: color 0.2s linear 0s, background 0.2s linear 0s; color:#ff670f; }
+
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ 
+ 
+
+ 
+ .icon-ul { list-style-type:none !important; margin:0px; padding:0px;}
+ .icon-ul li { line-height:75px; width:100%; float:left;}
+ .icon { float:left; margin-right:5px;}
+ 
+ 
+ .copyright { min-height:40px; background-color:#000000;}
+ .copyright p { text-align:left; color:#FFF; padding:10px 0; margin-bottom:0px;}
+ .heading7 { font-size:21px; font-weight:700; color:#d9d6d6; margin-bottom:22px;}
+ .post p { font-size:12px; color:#FFF; line-height:20px;}
+ .post p span { display:block; color:#8f8f8f;}
+ .bottom_ul { list-style-type:none; float:right; margin-bottom:0px;}
+ .bottom_ul li { float:left; line-height:40px;}
+ .bottom_ul li:after { content:"/"; color:#FFF; margin-right:8px; margin-left:8px;}
+ .bottom_ul li a { color:#FFF;  font-size:12px;}
+<!--------------end------------->
+
+ 
+ .about-top{ margin-bottom:30px;}
+.about-icon1{ margin-bottom:30px;}
+.about-icon2{ margin-bottom:30px;}
+.about-icon3{ margin-bottom:30px;}
+.about-icon4{ margin-bottom:30px;}
+					 
+.service-icon{ margin-bottom:15px;}					 
+					 
+.pricing{ margin-bottom:15px;}					 
+.count{ margin-bottom:10px;}	
+
+.sm-up-container{background-color: #2196F3;
+color: #fff;}
+
+
+.sm-up {
+    color: #fff;
+    display: block;
+    font-size: 36px;
+    padding-bottom: 2px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.sm-up-container:focus,
+.sm-up-container:hover
+{
+	background-color:#87d37c;
+	text-decoration: none;
+}
+
+.sm-up-container {
+    display: none;
+  text-align:center;
+    margin-right: 22px;
+    margin-top: auto;
+    padding: 3px 6px;
+    position: fixed;
+    right: 3px;
+    top: 85%;
+    width: 44px;
+	height:44px;
+    z-index: 60;
+}				 
+					 
+					 
+					 
+					 
+					 
